@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Avenir";
+  src: url("../font/AvenirLTStd-Black.otf");
+}
+
+body,
+* {
+  font-family: "Avenir", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
