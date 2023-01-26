@@ -6,10 +6,23 @@
   font-family: "AvenirMedium";
   src: url("../font/AvenirMedium.ttf");
 }
+@font-face {
+  font-family: "AvenirHeavy";
+  src: url("../font/AvenirHeavy.ttf");
+}
 
 body,
 * {
-  font-family: "AvenirMedium", sans-serif ;
+  font-family: "AvenirMedium", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2c3e50;
 }
