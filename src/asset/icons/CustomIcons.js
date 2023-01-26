@@ -41,3 +41,25 @@ const StatisticSvg = () => (
   </svg>
 );
 export const StatisticIcon = (props) => <Icon component={StatisticSvg} {...props} />;
+
+const CloseSvg = () => (
+  <svg width="fit-content" height="fit-content" fill="currentColor" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="CancelIcon" tabindex="-1" title="Cancel">
+    <path d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z" />
+  </svg>
+);
+export const CloseIcon = (props) => <Icon component={CloseSvg} {...props} />;
+
+const DeleteSvg = () => (
+  <svg width="fit-content" height="fit-content" fill="currentColor" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="DeleteOutlineOutlinedIcon" tabindex="-1" title="DeleteOutlineOutlined">
+    <path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM8 9h8v10H8V9zm7.5-5-1-1h-5l-1 1H5v2h14V4h-3.5z" />
+  </svg>
+);
+export const DeleteIcon = (props) => <Icon component={DeleteSvg} {...props} />;
+
+const AddSvg = () => (
+  <svg width="fit-content" height="fit-content" fill="currentColor" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="AddCircleIcon" tabindex="-1" title="AddCircle">
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z" />
+  </svg>
+);
+export const AddIcon = (props) => <Icon component={AddSvg} {...props} />;
+
