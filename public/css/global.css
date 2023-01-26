@@ -1,11 +1,15 @@
 @font-face {
-  font-family: "Avenir";
+  font-family: "AvenirBlack";
   src: url("../font/AvenirLTStd-Black.otf");
+}
+@font-face {
+  font-family: "AvenirMedium";
+  src: url("../font/AvenirMedium.ttf");
 }
 
 body,
 * {
-  font-family: "Avenir", sans-serif !important;
+  font-family: "AvenirMedium", sans-serif ;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -9,7 +9,7 @@ const Theme: FC<Props> = ({ children }) => {
   return (
     <ConfigProvider
       theme={{
-        token: { colorPrimary: "#0077B7" },
+        token: { colorPrimary: "#0077B7", fontFamily: "AvenirMedium" },
         components: {
           Button: {
             colorBgContainer: "#F4FBFF",
@@ -19,6 +19,9 @@ const Theme: FC<Props> = ({ children }) => {
           Typography: {
             colorText: "#2C3E50 !important",
           },
+          Badge:{
+            colorBgContainer:'#000000'
+          }
         },
       }}
     >
